@@ -45,7 +45,7 @@ public class PassCourse {
         avg = (double) sum / count;
 
         System.out.println("The Average: "+avg);
-        String result = avg> 55 ? "Successfully passed!" : "Failed!";
+        String result = avg> 55 ? "Successfully passed!" : "Failed! ";
         System.out.println(result);
 
 
