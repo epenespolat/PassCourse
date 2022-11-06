@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PassCourse {
     public static void main(String[] args) {
-        int mat,phys,chem,tur,mus, sumtemp = 0,count=0, n =0,sum=0;
+        int mat,phys,chem,tur,mus, sumtemp = 0,count=0,sum=0;
         double avg;
 
         Scanner input=new Scanner(System.in);
@@ -44,7 +44,11 @@ public class PassCourse {
         }
         avg = (double) sum / count;
 
-        System.out.println(avg);
+        System.out.println("The Average: "+avg);
+        String result = avg> 55 ? "Successfully passed!" : "Failed!";
+        System.out.println(result);
+
+
     }
 
 }
